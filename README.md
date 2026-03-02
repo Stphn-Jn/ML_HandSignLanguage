@@ -1,6 +1,4 @@
-Here is the clean, professional version of your `README.md` with all the emojis removed.
 
-```markdown
 # Hand Sign Language Recognition (A-Z)
 
 A custom-trained Machine Learning pipeline that detects and translates American Sign Language (ASL) alphabets in real-time using your webcam! 
