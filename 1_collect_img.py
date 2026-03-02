@@ -5,11 +5,12 @@ DATA_DIR = './data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-# Let's train for 3 letters: A (0), B (1), C (2). You can increase this!
-number_of_classes = 3 
+#classes = how many letters
+#dataset = how many images 
+number_of_classes = 26 
 dataset_size = 100
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 for j in range(number_of_classes):
     if not os.path.exists(os.path.join(DATA_DIR, str(j))):
