@@ -92,3 +92,5 @@ The grand finale! This opens your webcam and draws a live skeleton over your han
 ## Known Limitations (ASL 'J' and 'Z')
 
 Because this model relies on static, single-frame images rather than analyzing video motion over time, dynamic signs might be tricky. In ASL, the letters **J** and **Z** require motion (drawing the shape in the air). The model may occasionally confuse 'J' with 'I', or 'Z' with 'D' or '1', as their static hand positions look very similar!
+
+## March 3, 2026 I (Raymund) also contribute to develop the Enhanced data from 100 images trained per letter to 1000 images, I'm grateful to be part of this project activity.
